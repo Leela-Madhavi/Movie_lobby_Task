@@ -1,0 +1,28 @@
+{
+  "name": "leela",
+  "version": "1.0.0",
+  "description": "movies lobby",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "test": "jest --config ./jest.config.js",
+    "test:watch": "npm run test -- --watch"
+  },
+  "author": "leela",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.5",
+    "body-parser": "^1.20.2",
+    "body-parser-xml": "^2.0.5",
+    "eslint": "^8.55.0",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mongodb": "^6.3.0",
+    "nodemon": "^3.0.2",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
+  }
+}
