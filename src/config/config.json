@@ -1,0 +1,11 @@
+{
+    "port" : 9000,
+    "urlprefix": "http://localhost:9000",
+    "MONGO_POOLSIZE" : 5,
+    "dbuser": "leelamadhavibolagani",
+    "dbpassword": "WiMc9Il48qeo2BOV",
+    "connectString": "cluster0.orkkom9.mongodb.net/Lobby",
+    "CONNECTION_DB_NAME" : "Lobby",
+    "COLLECTION_NAME" : "MoviesList",
+    "applicationName" : "MoviesLobby"
+}
